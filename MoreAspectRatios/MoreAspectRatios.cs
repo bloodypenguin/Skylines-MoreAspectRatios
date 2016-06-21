@@ -16,8 +16,15 @@ namespace MoreAspectRatios
                 {
                     return "More Aspect Ratios";
                 }
-                Bootstrap();
-                _bootstrapped = true;
+                try
+                {
+                    Bootstrap();
+                    _bootstrapped = true;
+                }
+                catch
+                {
+                    // ignored
+                }
                 return "More Aspect Ratios";
             }
         }
