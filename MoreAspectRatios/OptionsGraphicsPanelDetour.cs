@@ -11,7 +11,7 @@ namespace MoreAspectRatios
     public class OptionsGraphicsPanelDetour : OptionsGraphicsPanel
     {
 
-        private static readonly float[] kAvailableAspectRatios = new float[7]
+        private static readonly float[] kAvailableAspectRatios = new float[]
         {
             1.25f,
             1.333333f,
@@ -19,10 +19,12 @@ namespace MoreAspectRatios
             1.777778f,
             1.6f,
             2f,
-            2.333333f
+            2.333333f,
+            2.4f,
+            3.555556f
         };
 
-        private static readonly string[] kAvailableAspectRatioNames = new string[7]
+        private static readonly string[] kAvailableAspectRatioNames = new string[]
         {
             "Square (5:4)",
             "ASPECTRATIO_NORMAL",
@@ -30,7 +32,9 @@ namespace MoreAspectRatios
             "ASPECTRATIO_WIDESCREEN",
             "ASPECTRATIO_WIDESCREEN2",
             "Widescreen (2:1)",
-            "ASPECTRATIO_WIDESCREEN3"
+            "ASPECTRATIO_WIDESCREEN3",
+            "Widescreen (12:5)",
+            "Widescreen (32:9)",
         };
 
         [RedirectMethod]
