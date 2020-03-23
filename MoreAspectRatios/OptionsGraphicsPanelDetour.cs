@@ -21,7 +21,8 @@ namespace MoreAspectRatios
             2f,
             2.333333f,
             2.4f,
-            3.555556f
+            3.555556f,
+            3.2f
         };
 
         private static readonly string[] kAvailableAspectRatioNames = new string[]
@@ -35,6 +36,7 @@ namespace MoreAspectRatios
             "ASPECTRATIO_WIDESCREEN3",
             "Widescreen (12:5)",
             "Widescreen (32:9)",
+            "SuperUltraWide (32:10)"
         };
 
         [RedirectMethod]
