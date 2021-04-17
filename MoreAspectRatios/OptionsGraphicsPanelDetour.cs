@@ -20,21 +20,29 @@ namespace MoreAspectRatios
             1.6f,
             2f,
             2.333333f,
+            2.388889f,
             2.4f,
-            3.555556f
+            2.666667f,
+            3.2f,
+            3.555556f,
+            3.6f
         };
 
         private static readonly string[] kAvailableAspectRatioNames = new string[]
         {
-            "Square (5:4)",
+            "DV PAL (5:4)",
             "ASPECTRATIO_NORMAL",
-            "Classic (3:2)",
+            "DV NTSC (3:2)",
             "ASPECTRATIO_WIDESCREEN",
             "ASPECTRATIO_WIDESCREEN2",
-            "Widescreen (2:1)",
+            "VistaVision (2:1)",
             "ASPECTRATIO_WIDESCREEN3",
-            "Widescreen (12:5)",
-            "Widescreen (32:9)",
+            "Ultrawide (21:9)",
+            "Ultrawide (24:10)",
+            "Ultrawide (24:9)",
+            "Super Wide (32:10)",
+            "Super Wide (32:9)",
+            "Super Wide (36:10)",
         };
 
         [RedirectMethod]
