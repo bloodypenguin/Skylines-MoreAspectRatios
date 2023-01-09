@@ -26,7 +26,8 @@ namespace MoreAspectRatios
             2.666667f,
             3.2f,
             3.555556f,
-            3.6f
+            3.6f,
+            5.333333f
         };
 
         private static readonly string[] kAvailableAspectRatioNames = new string[]
@@ -45,6 +46,7 @@ namespace MoreAspectRatios
             "Super Wide (32:10)",
             "Super Wide (32:9)",
             "Super Wide (36:10)",
+            "Triple 16:9 (48:9)"
         };
 
         [RedirectMethod]
